@@ -1,0 +1,297 @@
+/* Styling for the Top Navigation Part */
+.top-nav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: -10px;
+}
+
+.header-icons-container {
+    /* background-color: green; */
+    margin-left: auto;
+}
+
+.header-icons {
+    margin: 20px;
+}
+
+.top-nav-links {
+    margin-left: 20px;
+    background-color: white;
+    border: 0px;
+}
+
+.top-nav-links:hover {
+    cursor: pointer;
+}
+
+.top-nav-status {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    background-color: white;
+}
+
+.top-dashboard,
+.top-sms,
+.top-developer {
+    background-color: rgba(255, 255, 255, 0.651);
+    background-color: rgba(255, 255, 255, 0.808);
+    width: max-content;
+    margin: 2px;
+    height: max-content;
+    border-right: 0.2px solid rgba(0, 0, 0, 0.075);
+}
+
+.top-developer-icon,
+.top-sms-icon,
+.top-dashboard-icon {
+    background-color: rgb(14, 150, 93);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.dash-sms-develop-links {
+    color: black;
+    text-decoration: none;
+}
+
+/* CSS for the Drop down */
+.welcome-id-ip-date,
+.myProfile,
+.changePassword,
+.logOut {
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+}
+
+.welcome-id-ip-date:hover,
+.myProfile:hover,
+.changePassword:hover,
+.logOut:hover {
+    background-color: whitesmoke;
+}
+
+.drop-down-user-container-active {
+    width: auto;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    font-size: small;
+
+}
+.DropDownUser-container-inactive{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+.drop-down-user-container-inactive {
+    width: auto;
+    height: auto;
+    position: absolute;
+    visibility: hidden;
+    right: 0;
+    font-size: small;
+    /* transition-duration: 5s;
+    transition-delay: 0.2s; */
+}
+
+
+/* End of CSS OF THE TOP NAV .top-nav-bar
+
+START OF CSS OF THE SIDE NAV BAR */
+.sideNav-container {
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    height: 80vh;
+    font-size: small;
+}
+
+.sideNav-components {
+    width: max-content;
+
+}
+
+.sideNav-individual-component-user,
+.sideNav-individual-component-contacts,
+.sideNav-individual-component-application,
+.sideNav-individual-component-report,
+.sideNav-individual-component-setting {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    margin: 1px;
+    border: 0px;
+    border-bottom: 1px solid whitesmoke;
+
+}
+
+.sideNav-individual-component-user:hover,
+.sideNav-individual-component-contacts:hover,
+.sideNav-individual-component-application:hover,
+.sideNav-individual-component-report:hover,
+.sideNav-individual-component-setting:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+#sideNav-dropDown-sms,
+#sideNav-dropDown-contacts,
+#sideNav-dropDown-reports,
+#sideNav-dropDown-application,
+#sideNav-dropDown-settings {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 10px;
+
+}
+
+.sideNav-links {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    background-color: white;
+}
+
+#sideNav-sms-dropdown-list {
+    margin: 0px;
+    background-color: rgba(243, 240, 240, 0.836);
+}
+
+li {
+    list-style: none;
+    margin-bottom: 15px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+/* THE END OF CSS FOR SIDE NAV BAR */
+p,
+big,
+small {
+    font-family: sans-serif;
+}
+
+/* THE START OF CSS FOR THE STATUS VIEW SECTION */
+
+.sms-sent-today,
+.sms-delivered-today,
+.sms-sent-yesterday,
+.sms-delivered-yesterday {
+    background-color: white;
+    width: 180px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.custom-range {
+    /* -webkit-appearance: none;
+    background-color: green; */
+    width: 170px;
+    height: 2.5px;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+    margin-left: 5px;
+    /* background: rgba(59,173,227,1);
+    background: -moz-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%); */
+    /* calcluacations done on the margin left in reference to the width */
+}
+
+.custom-range::-webkit-slider-thumb{
+    opacity: 0;
+}
+
+.statusView-components {
+    display: flex;
+    flex-direction: row;
+}
+
+/* The end of css for the side view  */
+/* GENERAL CSS FOR SIVENAV AND GRAPH AND STATUS */
+.SideStatusView-SideGraphView {
+    background-color: rgb(234, 243, 234);
+    width: 100%;
+}
+
+/* The start of css for the Graph View Section */
+.graph-container {
+    background-color: white;
+    margin-left: 10px;
+    width: max-content;
+    align-items: center;
+    text-align: center;
+
+}
+
+.graph-header {
+    margin-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.graph-variables {
+    display: flex;
+    flex-direction: row;
+}
+
+.graph-data {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+
+.graph-canvas {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    width: 600px;
+    height: fit-content;
+}
+
+.message-details {
+    text-align: left;
+    margin-left: 20px;
+}
+
+table {
+    align-items: left;
+    text-align: left;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
