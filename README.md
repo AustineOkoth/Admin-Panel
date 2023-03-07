@@ -5,3 +5,5 @@ This project has been coded using the React.js and its a admin pannel for managi
 Additionally, I have used node.js and express.js to create a server-side interface that will 
 be used to connect to our XAMPP database.
 
+
+Ensure taht you have installed the 
